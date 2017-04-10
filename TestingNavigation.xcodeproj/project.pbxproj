@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0B607D1E9BED5200058E49 /* WorkoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B607C1E9BED5200058E49 /* WorkoutData.swift */; };
+		CD0B607F1E9BEF2100058E49 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B607E1E9BEF2100058E49 /* Exercise.swift */; };
+		CD0B60811E9C06DC00058E49 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B60801E9C06DC00058E49 /* ExerciseDetail.swift */; };
 		CDC302F81E9AC8B900D9EE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC302F71E9AC8B900D9EE5C /* AppDelegate.swift */; };
-		CDC302FA1E9AC8B900D9EE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC302F91E9AC8B900D9EE5C /* ViewController.swift */; };
+		CDC302FA1E9AC8B900D9EE5C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC302F91E9AC8B900D9EE5C /* MasterViewController.swift */; };
 		CDC302FD1E9AC8B900D9EE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC302FB1E9AC8B900D9EE5C /* Main.storyboard */; };
 		CDC302FF1E9AC8B900D9EE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC302FE1E9AC8B900D9EE5C /* Assets.xcassets */; };
-		CDC303021E9AC8B900D9EE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC303001E9AC8B900D9EE5C /* LaunchScreen.storyboard */; };
+		CDC3030A1E9ACAE100D9EE5C /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC303091E9ACAE100D9EE5C /* AddWorkoutViewController.swift */; };
+		CDC3030C1E9ACB2200D9EE5C /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC3030B1E9ACB2200D9EE5C /* WorkoutsViewController.swift */; };
+		CDC303161E9AD3A300D9EE5C /* Workout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC303141E9AD3A300D9EE5C /* Workout.storyboard */; };
+		CDC303241E9AF0D900D9EE5C /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC303231E9AF0D900D9EE5C /* ExerciseViewController.swift */; };
+		CDC303261E9AF13900D9EE5C /* AddExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC303251E9AF13900D9EE5C /* AddExerciseViewController.swift */; };
+		CDC303291E9AF16300D9EE5C /* Exercises.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC303271E9AF16300D9EE5C /* Exercises.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0B607C1E9BED5200058E49 /* WorkoutData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutData.swift; sourceTree = "<group>"; };
+		CD0B607E1E9BEF2100058E49 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		CD0B60801E9C06DC00058E49 /* ExerciseDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
 		CDC302F41E9AC8B900D9EE5C /* TestingNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC302F71E9AC8B900D9EE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDC302F91E9AC8B900D9EE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDC302F91E9AC8B900D9EE5C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		CDC302FC1E9AC8B900D9EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC302FE1E9AC8B900D9EE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDC303011E9AC8B900D9EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDC303031E9AC8B900D9EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC303091E9ACAE100D9EE5C /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
+		CDC3030B1E9ACB2200D9EE5C /* WorkoutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+		CDC303151E9AD3A300D9EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Workout.storyboard; sourceTree = "<group>"; };
+		CDC303231E9AF0D900D9EE5C /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		CDC303251E9AF13900D9EE5C /* AddExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExerciseViewController.swift; sourceTree = "<group>"; };
+		CDC303281E9AF16300D9EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Exercises.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		CDC302F61E9AC8B900D9EE5C /* TestingNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				CDC303131E9ACCCB00D9EE5C /* More Tab */,
+				CDC303121E9ACCBA00D9EE5C /* Exercise Tab */,
+				CDC303111E9ACCAE00D9EE5C /* Workout Tab */,
 				CDC302F71E9AC8B900D9EE5C /* AppDelegate.swift */,
-				CDC302F91E9AC8B900D9EE5C /* ViewController.swift */,
+				CDC302F91E9AC8B900D9EE5C /* MasterViewController.swift */,
 				CDC302FB1E9AC8B900D9EE5C /* Main.storyboard */,
 				CDC302FE1E9AC8B900D9EE5C /* Assets.xcassets */,
-				CDC303001E9AC8B900D9EE5C /* LaunchScreen.storyboard */,
 				CDC303031E9AC8B900D9EE5C /* Info.plist */,
 			);
 			path = TestingNavigation;
+			sourceTree = "<group>";
+		};
+		CDC303111E9ACCAE00D9EE5C /* Workout Tab */ = {
+			isa = PBXGroup;
+			children = (
+				CDC303141E9AD3A300D9EE5C /* Workout.storyboard */,
+				CDC3030B1E9ACB2200D9EE5C /* WorkoutsViewController.swift */,
+				CDC303091E9ACAE100D9EE5C /* AddWorkoutViewController.swift */,
+				CD0B607C1E9BED5200058E49 /* WorkoutData.swift */,
+			);
+			name = "Workout Tab";
+			sourceTree = "<group>";
+		};
+		CDC303121E9ACCBA00D9EE5C /* Exercise Tab */ = {
+			isa = PBXGroup;
+			children = (
+				CDC303271E9AF16300D9EE5C /* Exercises.storyboard */,
+				CDC303231E9AF0D900D9EE5C /* ExerciseViewController.swift */,
+				CDC303251E9AF13900D9EE5C /* AddExerciseViewController.swift */,
+				CD0B607E1E9BEF2100058E49 /* Exercise.swift */,
+				CD0B60801E9C06DC00058E49 /* ExerciseDetail.swift */,
+			);
+			name = "Exercise Tab";
+			sourceTree = "<group>";
+		};
+		CDC303131E9ACCCB00D9EE5C /* More Tab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "More Tab";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +171,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC303021E9AC8B900D9EE5C /* LaunchScreen.storyboard in Resources */,
+				CDC303161E9AD3A300D9EE5C /* Workout.storyboard in Resources */,
 				CDC302FF1E9AC8B900D9EE5C /* Assets.xcassets in Resources */,
+				CDC303291E9AF16300D9EE5C /* Exercises.storyboard in Resources */,
 				CDC302FD1E9AC8B900D9EE5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC302FA1E9AC8B900D9EE5C /* ViewController.swift in Sources */,
+				CDC303261E9AF13900D9EE5C /* AddExerciseViewController.swift in Sources */,
+				CD0B607F1E9BEF2100058E49 /* Exercise.swift in Sources */,
+				CDC3030C1E9ACB2200D9EE5C /* WorkoutsViewController.swift in Sources */,
+				CDC303241E9AF0D900D9EE5C /* ExerciseViewController.swift in Sources */,
+				CDC302FA1E9AC8B900D9EE5C /* MasterViewController.swift in Sources */,
+				CD0B60811E9C06DC00058E49 /* ExerciseDetail.swift in Sources */,
+				CD0B607D1E9BED5200058E49 /* WorkoutData.swift in Sources */,
 				CDC302F81E9AC8B900D9EE5C /* AppDelegate.swift in Sources */,
+				CDC3030A1E9ACAE100D9EE5C /* AddWorkoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,12 +208,20 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CDC303001E9AC8B900D9EE5C /* LaunchScreen.storyboard */ = {
+		CDC303141E9AD3A300D9EE5C /* Workout.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDC303011E9AC8B900D9EE5C /* Base */,
+				CDC303151E9AD3A300D9EE5C /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Workout.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC303271E9AF16300D9EE5C /* Exercises.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC303281E9AF16300D9EE5C /* Base */,
+			);
+			name = Exercises.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -301,6 +365,7 @@
 				CDC303081E9AC8B900D9EE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
