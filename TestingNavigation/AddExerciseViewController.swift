@@ -49,6 +49,19 @@ class AddExerciseViewController: UIViewController {
     }
     
     
+    @IBAction func btnSave(_ sender: Any) {
+        
+        selExercise.name        = txtName.text
+        //selExercise.primary     = Int(txtPrimary.text)!
+        //selExercise.secondary   = Int(txtSecondary.text)!
+        selExercise.sets        = txtSets.text
+        selExercise.reps        = txtReps.text
+        selExercise.desc        = txtDesc.text
+        selExercise.source      = txtSource.text
+        
+        delegate?.updateExercise(exercise: selExercise)
+        self.dismiss(animated: true, completion: nil)
+    }
        
       
 }
