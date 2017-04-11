@@ -81,7 +81,8 @@ class ExerciseViewController: UIViewController, UITableViewDelegate, UITableView
         selExercise = (exercises[indexPath.row], indexPath.row)
         
         //Opens the AddExerciseVC and sends over data...
-        performSegue(withIdentifier: "segueExerciseDetail", sender: self)
+        //@PROBLEM:  This function causing detail page to be displayed twice
+        //performSegue(withIdentifier: "segueExerciseDetail", sender: self)
         
     }
     
