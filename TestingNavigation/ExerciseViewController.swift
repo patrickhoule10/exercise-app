@@ -86,14 +86,15 @@ class ExerciseViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     
+    //This function is causing the NAVCONTROLLER TO STOP WORKING on DetailVC
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "segueExerciseDetail" {
-            let detailcontroller = segue.destination as! AddExerciseViewController
-            
-            detailcontroller.selExercise = selExercise.exercise
-            detailcontroller.delegate = self
-            
-        }
+//        if segue.identifier == "segueExerciseDetail" {
+//            let detailcontroller = segue.destination as! AddExerciseViewController
+//            
+//            detailcontroller.selExercise = selExercise.exercise
+//            detailcontroller.delegate = self
+//            
+//        }
     }
     
 }

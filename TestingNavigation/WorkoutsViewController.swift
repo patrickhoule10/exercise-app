@@ -100,13 +100,13 @@ class WorkoutsViewController: UIViewController, UITableViewDataSource, UITableVi
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "segueDetailTable" {
-            let detailcontroller = segue.destination as! WorkoutDetailTVC
+        //if segue.identifier == "segueDetailTable" {
+        //    let detailcontroller = segue.destination as! WorkoutDetailTVC
             
             //detailcontroller.sel = selExercise.exercise
             //detailcontroller.delegate = self
             
-        }
+        //}
     }
 
        

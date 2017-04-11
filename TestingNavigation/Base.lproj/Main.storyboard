@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--More...-->
         <scene sceneID="gf3-kh-JZS">
             <objects>
-                <viewController id="gEW-5S-ZiE" sceneMemberID="viewController">
+                <viewController title="More..." id="gEW-5S-ZiE" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gfa-OQ-4mw"/>
                         <viewControllerLayoutGuide type="bottom" id="vk3-sz-mUI"/>
@@ -26,7 +26,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="npD-TU-bxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-491" y="735"/>
+            <point key="canvasLocation" x="-519" y="724"/>
         </scene>
         <!--Workouts-->
         <scene sceneID="jDD-Uf-cKQ">
@@ -39,7 +39,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="Exy-ia-3cK" kind="relationship" relationship="viewControllers" id="KD5-u4-2ks"/>
-                        <segue destination="2H2-lX-FGm" kind="relationship" relationship="viewControllers" id="nYe-NV-uHH"/>
+                        <segue destination="2H2-lX-FGm" kind="relationship" relationship="viewControllers" id="elh-nC-rxv"/>
                         <segue destination="gEW-5S-ZiE" kind="relationship" relationship="viewControllers" id="CWh-Q6-6wy"/>
                     </connections>
                 </tabBarController>

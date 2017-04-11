@@ -14,7 +14,6 @@
 		CD0B60851E9C2C8A00058E49 /* WorkoutDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B60841E9C2C8A00058E49 /* WorkoutDetailVC.swift */; };
 		CD0B60871E9C2E2600058E49 /* WorkoutDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B60861E9C2E2600058E49 /* WorkoutDetail.swift */; };
 		CDC302F81E9AC8B900D9EE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC302F71E9AC8B900D9EE5C /* AppDelegate.swift */; };
-		CDC302FA1E9AC8B900D9EE5C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC302F91E9AC8B900D9EE5C /* MasterViewController.swift */; };
 		CDC302FD1E9AC8B900D9EE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC302FB1E9AC8B900D9EE5C /* Main.storyboard */; };
 		CDC302FF1E9AC8B900D9EE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC302FE1E9AC8B900D9EE5C /* Assets.xcassets */; };
 		CDC3030A1E9ACAE100D9EE5C /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC303091E9ACAE100D9EE5C /* AddWorkoutViewController.swift */; };
@@ -34,7 +33,6 @@
 		CD0B60861E9C2E2600058E49 /* WorkoutDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetail.swift; sourceTree = "<group>"; };
 		CDC302F41E9AC8B900D9EE5C /* TestingNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC302F71E9AC8B900D9EE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDC302F91E9AC8B900D9EE5C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		CDC302FC1E9AC8B900D9EE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDC302FE1E9AC8B900D9EE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDC303031E9AC8B900D9EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				CDC303121E9ACCBA00D9EE5C /* Exercise Tab */,
 				CDC303111E9ACCAE00D9EE5C /* Workout Tab */,
 				CDC302F71E9AC8B900D9EE5C /* AppDelegate.swift */,
-				CDC302F91E9AC8B900D9EE5C /* MasterViewController.swift */,
 				CDC302FB1E9AC8B900D9EE5C /* Main.storyboard */,
 				CDC302FE1E9AC8B900D9EE5C /* Assets.xcassets */,
 				CDC303031E9AC8B900D9EE5C /* Info.plist */,
@@ -215,7 +212,6 @@
 				CD0B607F1E9BEF2100058E49 /* Exercise.swift in Sources */,
 				CDC3030C1E9ACB2200D9EE5C /* WorkoutsViewController.swift in Sources */,
 				CDC303241E9AF0D900D9EE5C /* ExerciseViewController.swift in Sources */,
-				CDC302FA1E9AC8B900D9EE5C /* MasterViewController.swift in Sources */,
 				CD0B60811E9C06DC00058E49 /* ExerciseDetail.swift in Sources */,
 				CD0B60831E9C2BFD00058E49 /* WorkoutDetailTVC.swift in Sources */,
 				CD0B607D1E9BED5200058E49 /* WorkoutHeader.swift in Sources */,
