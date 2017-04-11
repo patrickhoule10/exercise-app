@@ -8,13 +8,13 @@
 
 import Foundation
 
-struct Workout {
-    var workoutName : String?
-    var workoutDate : Date?
+struct WorkoutHeader {
+    var name : String?
+    var date : String?
     
-    init (name: String, workoutdate : Date){
-        self.workoutName = name
-        self.workoutDate = workoutdate
+    init (myName: String, myDate : String){
+        self.name = myName
+        self.date = myDate
     }
     
 }

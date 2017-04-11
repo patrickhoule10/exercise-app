@@ -34,16 +34,16 @@ class ExerciseViewController: UIViewController, UITableViewDelegate, UITableView
         
     }
 
-    
+    //REQUIRED
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
+    //REQUIRED
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return exercises.count
     }
-    
+    //REQUIRED
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         //Represents each individual cell row in the table view
@@ -52,6 +52,25 @@ class ExerciseViewController: UIViewController, UITableViewDelegate, UITableView
         cell.detailTextLabel?.text = exercises[indexPath.row].desc
         
         return cell
+    }
+    
+    //Allows Editing & Deleting of Rows in Table
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    //Sets up DELETING of a row in a Table
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle == UITableViewCellEditingStyle.delete{
+            exercises.remove(at: indexPath.row)
+            
+            
+            //FOR CordData need to the following code
+            //NSKeyedArchiver.archiveRootObject(testData, filePath)
+            
+            tableView.deleteRows(at: [indexPath], with: .automatic)   //Removes row from table
+        }
     }
     
     
@@ -70,9 +89,6 @@ class ExerciseViewController: UIViewController, UITableViewDelegate, UITableView
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segueExerciseDetail" {
             let detailcontroller = segue.destination as! AddExerciseViewController
-            //let navcontroller = segue.destination. as! UINavigationController
-            //let detailcontroller = navcontroller.topViewController as! AddExerciseViewController
-            
             
             detailcontroller.selExercise = selExercise.exercise
             detailcontroller.delegate = self
