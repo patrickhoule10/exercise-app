@@ -89,15 +89,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LNH-Ie-cdZ">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellDefault" textLabel="Vxa-M6-1wE" detailTextLabel="NaS-sG-7DN" style="IBUITableViewCellStyleValue1" id="LNH-Ie-cdZ">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LNH-Ie-cdZ" id="Bwc-tb-vfm">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vxa-M6-1wE">
+                                            <rect key="frame" x="15" y="12" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NaS-sG-7DN">
+                                            <rect key="frame" x="261" y="12" width="44" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ljS-2J-MQW" kind="show" id="l4G-RR-O4C"/>
+                                    <segue destination="ljS-2J-MQW" kind="show" identifier="segueDetailItem" id="l4G-RR-O4C"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -106,6 +122,9 @@
                             <outlet property="delegate" destination="aD1-Wc-03b" id="Tar-ym-fc1"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="workoutListTable" destination="5aF-09-wEd" id="Qiy-q2-gfO"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxg-xS-ppK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,7 +258,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VU1-dC-6K1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2949" y="-447"/>
+            <point key="canvasLocation" x="3176" y="-445"/>
         </scene>
         <!--Add Workout View Controller-->
         <scene sceneID="cwg-8D-pTR">

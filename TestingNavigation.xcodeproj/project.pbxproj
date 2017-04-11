@@ -94,7 +94,6 @@
 		CDC302F61E9AC8B900D9EE5C /* TestingNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				CD0B60881E9C785B00058E49 /* Workout Detail */,
 				CDC303131E9ACCCB00D9EE5C /* More Tab */,
 				CDC303121E9ACCBA00D9EE5C /* Exercise Tab */,
 				CDC303111E9ACCAE00D9EE5C /* Workout Tab */,
@@ -115,6 +114,7 @@
 				CD0B60821E9C2BFD00058E49 /* WorkoutDetailTVC.swift */,
 				CDC303091E9ACAE100D9EE5C /* AddWorkoutViewController.swift */,
 				CD0B607C1E9BED5200058E49 /* WorkoutHeader.swift */,
+				CD0B60881E9C785B00058E49 /* Workout Detail */,
 			);
 			name = "Workout Tab";
 			sourceTree = "<group>";

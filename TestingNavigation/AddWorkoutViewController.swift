@@ -17,6 +17,7 @@ class AddWorkoutViewController: UIViewController {
     var WorkoutDate : Date? = NSDate() as Date
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

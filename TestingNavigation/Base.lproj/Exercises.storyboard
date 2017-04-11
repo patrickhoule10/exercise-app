@@ -62,7 +62,7 @@
                     <toolbarItems>
                         <barButtonItem systemItem="action" id="MCB-zF-M5x"/>
                     </toolbarItems>
-                    <navigationItem key="navigationItem" id="Keo-LP-O4y">
+                    <navigationItem key="navigationItem" title="Exercises" id="Keo-LP-O4y">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="6m6-dj-csr">
                             <connections>
                                 <segue destination="VdK-pT-cWM" kind="show" identifier="segueExerciseDetail" action="showDetailViewController:sender:" id="hdo-iX-Fxf"/>
