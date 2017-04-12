@@ -51,6 +51,10 @@ class WorkoutDetailVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         txtReps.text = detail.reps
         txtWeight.text = detail.weight
         txtNotes.text = detail.notes
+        
+        //Move Picklists to bottom on related control
+        pickPrimary.topAnchor == txtPrimary.bottomAnchor
+        
     }
 
     

@@ -191,8 +191,9 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bii-tM-d1m">
-                                <rect key="frame" x="8" y="184" width="146" height="200"/>
+                                <rect key="frame" x="8" y="153" width="146" height="200"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="MLn-F0-ZEQ" id="tV5-Kc-PZL"/>
                                     <outlet property="delegate" destination="MLn-F0-ZEQ" id="TRp-w2-JNk"/>
