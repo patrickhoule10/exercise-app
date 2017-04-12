@@ -11,6 +11,7 @@ import UIKit
 class WorkoutsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var workoutTableView: UITableView!
+    @IBOutlet weak var lblCount: UILabel!
     
     var testData = ["Chest Workout", "Back Workout", "Leg Workout"]
     var testDates = ["Mon Mar 1", "Tue Mar 2","Wed Mar 3"]
@@ -61,6 +62,7 @@ class WorkoutsViewController: UIViewController, UITableViewDataSource, UITableVi
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellDefault", for: indexPath)
         cell.textLabel?.text = workouts[indexPath.row].name
         cell.detailTextLabel?.text = workouts[indexPath.row].date
+        //cell.lbl
         strSelectedName = (cell.textLabel?.text)!
 
         
