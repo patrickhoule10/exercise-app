@@ -14,11 +14,11 @@ class ExerciseViewController: UIViewController, UITableViewDelegate, UITableView
     
     //Then use a Structure to pass data... setup bogus data until using CoreData
     var exercises = [
-        ExerciseDetail(myName : "Abs", myPrimary : 0, mySecondary : 0, myDesc : "Great Abs", mySource : "none", mySets : "5", myReps : "10"),
-        ExerciseDetail(myName : "Chest", myPrimary : 0, mySecondary : 0, myDesc : "Great chest", mySource : "none", mySets : "5", myReps : "10"),
-        ExerciseDetail(myName : "Biceps", myPrimary : 0, mySecondary : 0, myDesc : "Great biceps", mySource : "none", mySets : "5", myReps : "10"),
-        ExerciseDetail(myName : "Legs", myPrimary : 0, mySecondary : 0, myDesc : "Great legs", mySource : "none", mySets : "5", myReps : "10"),
-        ExerciseDetail(myName : "Back", myPrimary : 0, mySecondary : 0, myDesc : "Great back", mySource : "none", mySets : "5", myReps : "10")
+        ExerciseDetail(myName : "Abs", myPrimary : "", mySecondary : 0, myDesc : "Great Abs", mySource : "none", mySets : "5", myReps : "10"),
+        ExerciseDetail(myName : "Chest", myPrimary : "", mySecondary : 0, myDesc : "Great chest", mySource : "none", mySets : "5", myReps : "10"),
+        ExerciseDetail(myName : "Biceps", myPrimary : "", mySecondary : 0, myDesc : "Great biceps", mySource : "none", mySets : "5", myReps : "10"),
+        ExerciseDetail(myName : "Legs", myPrimary : "", mySecondary : 0, myDesc : "Great legs", mySource : "none", mySets : "5", myReps : "10"),
+        ExerciseDetail(myName : "Back", myPrimary : "", mySecondary : 0, myDesc : "Great back", mySource : "none", mySets : "5", myReps : "10")
     ]
     
     //Property which holds the selected Exercise

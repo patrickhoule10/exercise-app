@@ -10,14 +10,14 @@ import Foundation
 
 struct ExerciseDetail {
     var name : String?
-    var primary : Int?
+    var primary : String?
     var secondary : Int?
     var desc : String?
     var source : String?
     var sets : String?
     var reps : String?
     
-    init (myName : String, myPrimary : Int, mySecondary : Int, myDesc : String, mySource : String, mySets : String, myReps : String){
+    init (myName : String, myPrimary : String, mySecondary : Int, myDesc : String, mySource : String, mySets : String, myReps : String){
         self.name = myName
         self.primary = myPrimary
         self.secondary = mySecondary

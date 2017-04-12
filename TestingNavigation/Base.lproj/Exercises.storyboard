@@ -130,6 +130,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="MLn-F0-ZEQ" id="987-Ym-FBe"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Secondary Muscle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ix4-fB-bb8">
                                 <rect key="frame" x="163" y="132" width="146" height="21"/>
@@ -187,13 +190,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bii-tM-d1m">
+                                <rect key="frame" x="8" y="184" width="146" height="200"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="MLn-F0-ZEQ" id="tV5-Kc-PZL"/>
+                                    <outlet property="delegate" destination="MLn-F0-ZEQ" id="TRp-w2-JNk"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="pickPrimary" destination="bii-tM-d1m" id="CdJ-RO-zFU"/>
+                        <outlet property="txtPrimary" destination="2kw-mt-yLz" id="wjH-ye-JRa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O8-fh-md0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3161" y="342"/>
+            <point key="canvasLocation" x="3159.375" y="341.19718309859155"/>
         </scene>
         <!--Exercises-->
         <scene sceneID="alS-1m-wLK">

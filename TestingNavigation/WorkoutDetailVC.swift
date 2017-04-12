@@ -14,7 +14,7 @@ protocol WorkoutDetailDelegate {
     func updateWorkoutDetail(detail: WorkoutDetail)
 }
 
-class WorkoutDetailVC: UIViewController {
+class WorkoutDetailVC: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
 
     
     
@@ -25,10 +25,15 @@ class WorkoutDetailVC: UIViewController {
     @IBOutlet weak var txtReps: UITextField!
     @IBOutlet weak var txtWeight: UITextField!
     @IBOutlet weak var txtNotes: UITextView!
+    @IBOutlet weak var pickPrimary: UIPickerView!
     
     //Property which holds the selected car detail being passed into the AddExercise VC
     var selWorkoutDetail : WorkoutDetail!
     var delegate: WorkoutDetailDelegate?    //holds value for saving??
+    
+    //picklist demo data
+    var pickPrimaryList = ["Arms","Back","Chest","Legs","Shoulders"]
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,15 +54,28 @@ class WorkoutDetailVC: UIViewController {
     }
 
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //Add REQUIRED picklist functions
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
     }
-    */
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return pickPrimaryList.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        self.view.endEditing(true)
+        return pickPrimaryList[row]
+    }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        self.txtPrimary.text = pickPrimaryList[row]
+        self.pickPrimary.isHidden = true
+    }
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        
+        if textField == self.txtPrimary {
+            self.pickPrimary.isHidden = false
+            txtPrimary.endEditing(true)
+        }
+    }
 
 }
